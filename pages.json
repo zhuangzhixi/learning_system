@@ -1,11 +1,14 @@
 {
+    "easycom": {
+        "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+    },
     "pages": [
         {
-            "path": "pages/practise/practise",
+            "path": "pages/class/class",
             "style": {}
         },
         {
-            "path": "pages/class/class",
+            "path": "pages/practise/practise",
             "style": {}
         },
         {
@@ -30,28 +33,28 @@
         "selectedColor": "#C00000",
         "list": [
             {
-                "pagePath": "pages/practise/practise",
-                "text": "练习",
-                "iconPath": "static/tab_icons/home.png",
-                "selectedIconPath": "static/tab_icons/home-active.png"
-            },
-            {
                 "pagePath": "pages/class/class",
                 "text": "课程",
-                "iconPath": "static/tab_icons/cate.png",
-                "selectedIconPath": "static/tab_icons/cate-active.png"
+                "iconPath": "static/tab_icons/play.png",
+                "selectedIconPath": "static/tab_icons/play1.png"
+            },
+            {
+                "pagePath": "pages/practise/practise",
+                "text": "练习",
+                "iconPath": "static/tab_icons/book.png",
+                "selectedIconPath": "static/tab_icons/book1.png"
             },
             {
                 "pagePath": "pages/discover/discover",
                 "text": "发现",
-                "iconPath": "static/tab_icons/cart.png",
-                "selectedIconPath": "static/tab_icons/cart-active.png"
+                "iconPath": "static/tab_icons/compass2.png",
+                "selectedIconPath": "static/tab_icons/compass21.png"
             },
             {
                 "pagePath": "pages/my/my",
                 "text": "我的",
-                "iconPath": "static/tab_icons/my.png",
-                "selectedIconPath": "static/tab_icons/my-active.png"
+                "iconPath": "static/tab_icons/user.png",
+                "selectedIconPath": "static/tab_icons/user1.png"
             }
         ]
     }
