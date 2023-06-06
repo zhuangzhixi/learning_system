@@ -1,24 +1,34 @@
 <template>
 	<view>
 		<!-- 常用工具 -->
+
+
 		<view class="interact-container">
-			<view class="interact-item">
+			<view class="interact-item" @click="navigateTo('/pages/mine/address/addressManage')">
+				<image src="/static/mine/myaddress.png" mode=""></image>
+				<view>地址管理</view>
+			</view>
+			<view class="interact-item" @click="navigateTo('/pages/mine/myTracks')">
+				<image src="/static/mine/logistics.png" mode=""></image>
+				<view>我的足迹</view>
+			</view>
+			<view class="interact-item" @click="navigateTo('/pages/order/evaluate/myEvaluate')">
 				<image src="/static/mine/feedback.png" mode=""></image>
 				<view>我的评价</view>
 			</view>
-			<view class="interact-item">
+			<view class="interact-item" @click="navigateTo('/pages/mine/myCollect')">
 				<image src="/static/mine/myfavorite.png" mode=""></image>
 				<view>我的关注</view>
 			</view>
-			<view class="interact-item">
+			<view class="interact-item" @click="navigateTo('/pages/mine/set/feedBack')">
 				<image src="/static/mine/feedback.png" mode=""></image>
 				<view>意见反馈</view>
 			</view>
-			<view class="interact-item">
+			<view class="interact-item" @click="navigateTo('/pages/mine/set/editionIntro')">
 				<image src="/static/mine/pointgift.png" mode=""></image>
 				<view>关于</view>
 			</view>
-			<view class="interact-item">
+			<view class="interact-item" @click="navigateTo('/pages/mine/set/setUp')">
 				<image src="/static/mine/setting.png" mode=""></image>
 				<view>设置</view>
 			</view>
@@ -34,6 +44,13 @@ export default {
 
 		};
 	},
+	methods: {
+		navigateTo(url) {
+			uni.navigateTo({
+				url,
+			});
+		},
+	}
 }
 </script>
 

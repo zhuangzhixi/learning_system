@@ -5,19 +5,152 @@
     "pages": [
         {
             "path": "pages/class/class",
-            "style": {}
+            "style": {
+                "navigationStyle": "custom"
+            },
+            "lazyCodeLoading": "requiredComponents"
         },
         {
             "path": "pages/practise/practise",
-            "style": {}
+            "style": {},
+            "lazyCodeLoading": "requiredComponents"
         },
         {
             "path": "pages/discover/discover",
-            "style": {}
+            "style": {
+                "navigationStyle": "custom"
+            },
+            "lazyCodeLoading": "requiredComponents"
         },
         {
             "path": "pages/my/my",
-            "style": {}
+            "style": {},
+            "lazyCodeLoading": "requiredComponents"
+        }
+    ],
+    "subPackages": [
+        {
+            "root": "subpkg",
+            "pages": [
+                {
+                    "path": "class_list/class_list",
+                    "style": {},
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "class_detail/class_detail",
+                    "style": {
+                        "navigationBarTitleText": "内容详情"
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "class_detail_video/class_detail_video",
+                    "style": {
+                        "navigationBarTitleText": "",
+                        "enablePullDownRefresh": false
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "order/myOrder",
+                    "style": {
+                        "navigationBarTitleText": "我的课程",
+                        "enablePullDownRefresh": false
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "search/search",
+                    "style": {
+                        "navigationBarTitleText": "",
+                        "enablePullDownRefresh": false
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "order/history",
+                    "style": {
+                        "navigationBarTitleText": "历史足迹",
+                        "enablePullDownRefresh": false
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "dopracitce/dopracitce",
+                    "style": {
+                        "navigationBarTitleText": "",
+                        "enablePullDownRefresh": false
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                },
+                {
+                    "path": "post/post",
+                    "style": {
+                        "navigationStyle": "custom"
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                }
+                ,{
+                    "path" : "chose/chose",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                },
+                    "lazyCodeLoading": "requiredComponents"
+                
+                }
+                ,{
+                    "path" : "backtime/backtime",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                },
+                    "lazyCodeLoading": "requiredComponents"
+                
+                }
+                ,{
+                    "path" : "chosequestion/chosequestion",
+                    "style": {
+                        "navigationBarTitleText": "试卷选择",
+                        "enablePullDownRefresh": false
+                    },
+                    "lazyCodeLoading": "requiredComponents"
+                
+                }
+                ,{
+                    "path" : "chosequestionzx/chosequestionzx",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                },
+                    "lazyCodeLoading": "requiredComponents"
+                
+                }
+                ,{
+                    "path" : "collect/collect",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                },
+                    "lazyCodeLoading": "requiredComponents"
+                
+                }
+                ,{
+                    "path" : "zxdetail/zxdetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                },
+                    "lazyCodeLoading": "requiredComponents"
+                
+                }
+            ]
         }
     ],
     "globalStyle": {
