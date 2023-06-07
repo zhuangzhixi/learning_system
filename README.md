@@ -7,3 +7,4 @@
 方式：点击右上角的设置——>选择开发调试中的打开调试。
 
 ![image-20230606223003455](./ewm.jpg)
+前端：uni-app+Vue-Router+Vuex+uView；后端：node.js+express+mysql
